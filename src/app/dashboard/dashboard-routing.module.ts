@@ -7,6 +7,9 @@ const routes: Routes = [
     path: '',
     component :DashboardLayoutComponent,
     //children : []
+    //* es posibler crear tantos guard como queramos y ponerlos a nivel de padre o de hijo
+
+    //* ejemplo : un guard en ujna ruta hija que solo alguin con cierto rol puede acceder
   }
 ];
 
